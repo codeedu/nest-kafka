@@ -1,0 +1,27 @@
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "produto teste",
+    "price": 10.12
+}
+
+###
+GET http://localhost:3000/products/0
+
+
+###
+GET http://localhost:3000/products
+
+###
+DELETE http://localhost:3000/products/5
+
+###
+PUT http://localhost:3000/products/4
+Content-Type: application/json
+
+{
+    "name": "produto alterado",
+    "price": 10.20
+}
